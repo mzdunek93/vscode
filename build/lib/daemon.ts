@@ -81,13 +81,6 @@ export function spawnCommand(server: net.Server, command: Command): void {
 		server.close();
 		process.exit(0);
 	});
-
-	process.on('SIGINT', () => {
-		child.kill();
-		process.exit(0);
-	});
-
-	process.on('exit', () => child.kill());
 }
 
 async function connect(command: Command, handle: string): Promise<net.Socket> {
