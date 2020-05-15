@@ -434,6 +434,12 @@
 		"_maven_light": {
 			"iconPath": "./maven_light.svg"
 		},
+		"_nim": {
+			"iconPath": "./nim.svg"
+		},
+		"_nim_light": {
+			"iconPath": "./nim_light.svg"
+		},
 		"_npm_grey": {
 			"iconPath": "./npm_grey.svg"
 		},
@@ -1158,6 +1164,7 @@
 		"ad": "_argdown",
 		"mustache": "_mustache",
 		"stache": "_mustache",
+		"nim": "_nim",
 		"njk": "_nunjucks",
 		"nunjucks": "_nunjucks",
 		"nunjs": "_nunjucks",
@@ -1524,6 +1531,7 @@
 			"ad": "_argdown_light",
 			"mustache": "_mustache_light",
 			"stache": "_mustache_light",
+			"nim": "_nim_light",
 			"njk": "_nunjucks_light",
 			"nunjucks": "_nunjucks_light",
 			"nunjs": "_nunjucks_light",
